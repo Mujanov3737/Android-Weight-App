@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ahmet Weight Tracking</string>
+    <string name="loginMain"><b>Weight Tracker</b></string>
+    <string name="loginSub">Enter login information below</string>
+    <string name="loginBtn">Login</string>
+    <string name="accountBtn">Create Account</string>
+    <string name="notifBtn">Enable Notifications</string>
+
+    <string name="dailyTitle">Daily Weights</string>
+    <string name="addBtn">+</string>
+    <string name="dailyGoalTitle">Goal Weight</string>
+    <string name="dailyGoal">Goal</string>
+    <string name="dailyBtn">Edit</string>
+
+    <string name="weightInfoTitle">Weight Info</string>
+    <string name="weightConfirm">Save</string>
+    <string name="weightDate">Date</string>
+    <string name="weightValue">Weight</string>
+    <string name="weightDelete">Delete Weight</string>
+</resources>

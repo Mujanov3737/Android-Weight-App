@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeightDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight = "?actionBarSize"
+        android:theme="?actionBarTheme"
+        android:background="@color/tealPrim">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weightInfoTitle"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/goalBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weightConfirm"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/tealPrim"
+            android:layout_gravity="end"
+            android:onClick="saveWeight"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weightDate"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weightValue"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:maxLines="1"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weightDelete"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:backgroundTint="@color/delRed"
+        android:textColor="@color/white"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:onClick="deleteWeight"/>
+
+</LinearLayout>
