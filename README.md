@@ -1,3 +1,14 @@
+# Project Demo
+## Login Screen
+![anim1](https://github.com/Mujanov3737/MobileDev/assets/75598761/0a3aa2c8-e3c9-4a9f-bce8-1e6274dd9601)
+## Adding Weight (or Note)
+![anim2](https://github.com/Mujanov3737/MobileDev/assets/75598761/b084449a-fa85-4bec-94ce-12e247594cea)
+## Deleting Weight (or Note)
+![anim3](https://github.com/Mujanov3737/MobileDev/assets/75598761/b1a9ecf7-d431-41fa-917d-10b6281d13ba)
+
+## Areas for Improvement
+The application certainly does not offer much in terms of robust features seen in professional mobile applications. Many weight trackers provide graphical data based on analytics and servers to store user data, rather than just locally on a user's device. Additionally, some features such as notifications, input validation, and animations are not fully implemented.
+
 # Weight Tracking Application
 This application is a fairly simple weight tracking application designed for use in mobile android devices and intended to allow users to enter weights and a corresponding date which is stored in a database to be presented to the user in a list view. However, the application could just as easily be used to store and track any sort of string-based data, and could function similarly to a note-taking application.
 
@@ -8,3 +19,4 @@ Regarding strategies used to approach the coding process of this application, ca
 Testing the application was done strictly through the use of the virtual device manager included in android studio, so it could be said that the entirety of app testing consisted of manual testing. The device manager tool allows for the emulation of an android device, such as a Pixel 2 which was used as the targeted testing device throughout development. As new features were implemented, the emulated device was “booted” and the application was run on the emulated platform to ensure the desired functionality was achieved.
 
 Overall, this project was a valuable learning experience that granted significant insight into the development process of mobile applications. Android Studio offers a rich suite of tools and libraries that make achieving robust, working features more streamlined. Once a developer can understand the foundational concepts of how an Android app is built, these tools can be leveraged easily with the documentation provided.
+
