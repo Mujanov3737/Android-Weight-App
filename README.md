@@ -7,7 +7,7 @@
 ![anim3](https://github.com/Mujanov3737/MobileDev/assets/75598761/b1a9ecf7-d431-41fa-917d-10b6281d13ba)
 
 ## Areas for Improvement
-The application certainly does not offer much in terms of robust features seen in professional mobile applications. Many weight trackers provide graphical data based on analytics and servers to store user data, rather than just locally on a user's device. Additionally, some features such as notifications, input validation, and animations are not fully implemented.
+The application certainly does not offer much in terms of robust features seen in professional mobile applications. Many weight trackers provide graphical data based on analytics and servers to store user data, rather than just locally on a user's device. Additionally, some features such as notifications, input validation, tracking changes, and animations are not fully implemented. Ultimately, the application simply stores string data for a user and functions much like a simple note taking or "to do" application.
 
 # Weight Tracking Application
 This application is a fairly simple weight tracking application designed for use in mobile android devices and intended to allow users to enter weights and a corresponding date which is stored in a database to be presented to the user in a list view. However, the application could just as easily be used to store and track any sort of string-based data, and could function similarly to a note-taking application.
