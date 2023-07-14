@@ -1,10 +1,12 @@
 # Project Demo
 ## Login Screen
-![anim1](https://github.com/Mujanov3737/MobileDev/assets/75598761/0a3aa2c8-e3c9-4a9f-bce8-1e6274dd9601)
+![anim1](https://github.com/Mujanov3737/Android-Weight-App/assets/75598761/3d1cddb9-82e4-437e-9622-853f8a193db4)
+
 ## Adding Weight (or Note)
-![anim2](https://github.com/Mujanov3737/MobileDev/assets/75598761/b084449a-fa85-4bec-94ce-12e247594cea)
+![anim2](https://github.com/Mujanov3737/Android-Weight-App/assets/75598761/98c8580a-5dfb-46cc-8f5b-8855b1aa702c)
+
 ## Deleting Weight (or Note)
-![anim3](https://github.com/Mujanov3737/MobileDev/assets/75598761/b1a9ecf7-d431-41fa-917d-10b6281d13ba)
+![anim3](https://github.com/Mujanov3737/Android-Weight-App/assets/75598761/03ffdbdc-2d53-40c9-b619-419973fbc26d)
 
 ## Areas for Improvement
 The application certainly does not offer much in terms of robust features seen in professional mobile applications. Many weight trackers provide graphical data based on analytics and servers to store user data, rather than just locally on a user's device. Additionally, some features such as notifications, input validation, tracking changes, and animations are not fully implemented. Ultimately, the application simply stores string data for a user and functions much like a simple note taking or "to do" application.
